@@ -91,3 +91,27 @@ useEffect = É event list.
  criando um variavel unsubscribe
  e passando a como função no final do metodo de useEffect unsubscribe()
  Exemplo: Arquivo Home.tsx
+
+ Quando aplicação tiver muitas componentes é preciso utilizar redux.
+ Se a aplicação for pequena poucos componentes utiliza useContext, react, modelo exe: hooks
+
+#Documentação Database Realtiment
+   https://firebase.google.com/docs/database/web/read-and-write?hl=pt-br
+
+   biblioteca para notificar mensagem react-hot-toast
+   https://react-hot-toast.com/
+
+#componente: Room.tsx
+
+   função para acesar evento, documentação Firebase.
+
+   quando precisa ouvir mais de uma vez o evento 
+   exe: roomRef.once() / function once()
+
+   se for ouvir uma unica vez
+   exe: roomRef.on() / function on()
+
+   function val() do firebase é uma api que buscar valor no firebase
+
+   doc Firebase
+   eventos: value, childs added, child changed
