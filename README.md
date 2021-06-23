@@ -44,3 +44,50 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+https://nextlevelweek.com/episodios/react/aula-1/edicao/6
+
+React js
+
+App para criar check-list: https://www.notion.so/
+
+App para desenhar fluxo do sistema: https://whimsical.com/together-AxkExMEdgHNWgUSQvyPjcJ
+
+Exportação do componente, dois tipos de exportar componente : 
+
+export function name( )
+- A função que recebe o import do componente, deve ser chamada através do nome do componente.
+   Import { nome do componente } from ‘./local e name’.
+
+Export default function name()
+- A função que recebe o import do componente, deve ser chamada pelo nome da função do componente.
+Import  nomeDoComponente from ‘./local e name’
+
+
+--- Criar conta no firebase
+configurar para uma conta gratuita.
+Add firebase como uma dependência de desenvolvimento: yarn add firebase
+
+configurar o .env.loca
+
+dentro de src > services > firebase.ts
+
+Em src > assets > images > fica as imagens SVG
+
+criar uma pasta em src > components: Todo component deve ser criado com a letra maiúscula.
+
+instalar sass pré processador de css
+exe: yarn add node-sass@^5.0.0
+
+instalar o react router dom, para controlar as respostas
+exe: yarn add react-router-dom
+
+como o react router dom, não tem as tipagens do typescript é preciso instalar as tipagens.
+exe: yarn add @types/react-router-dom
+
+useEffect = É event list.
+ - Para boas praticas sempres que estiver ouvido um event list, tem como obrigação se descadastrar do evento.
+
+ criando um variavel unsubscribe
+ e passando a como função no final do metodo de useEffect unsubscribe()
+ Exemplo: Arquivo Home.tsx
