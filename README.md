@@ -126,7 +126,17 @@ exe: yarn add @types/react-router-dom
 #import { ReactNode } from 'react'
  É uma tipagem que é utilizada para tipar um propriedade: children: ReactNode, é utilizada.
  ReactNode é qual quer coisa com a extensão jsx
+
+#Fragment do React
+ Quando utilizar?
+ Pode ser utilizado para não quebrar o css de uma classe.
+ exe: AdminRoom linha: 82 até 100 
      
 ##Algoritimo de reconcialiação
+
+##Deploy
+ Apartir utilizando firebase, configurando o .env no github repository.
+ git hub doc env action environment
+ https://docs.github.com/pt/actions/reference/environment-variables
 
 https://github.com/rocketseat-education/nlw-06-reactjs
