@@ -85,7 +85,7 @@ exe: yarn add react-router-dom
 como o react router dom, não tem as tipagens do typescript é preciso instalar as tipagens.
 exe: yarn add @types/react-router-dom
 
-useEffect = É event list.
+#useEffect = É event list.
  - Para boas praticas sempres que estiver ouvido um event list, tem como obrigação se descadastrar do evento.
 
  criando um variavel unsubscribe
@@ -115,3 +115,18 @@ useEffect = É event list.
 
    doc Firebase
    eventos: value, childs added, child changed
+
+#CSS ou sass
+   Quando é adicionado um '&' ele está referenciando o mesmo.
+   exe: question.scss   
+
+#Proriedade GAP
+   propriedade Css para dar espaçamento
+
+#import { ReactNode } from 'react'
+ É uma tipagem que é utilizada para tipar um propriedade: children: ReactNode, é utilizada.
+ ReactNode é qual quer coisa com a extensão jsx
+     
+##Algoritimo de reconcialiação
+
+https://github.com/rocketseat-education/nlw-06-reactjs
