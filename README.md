@@ -137,6 +137,35 @@ exe: yarn add @types/react-router-dom
      
 ##Algoritimo de reconcialiação
 
+Question.tsx
+
+QuestionProps
+ yarn add classnames
+ Para melhorar a qualidade do codigo. Adicionamos o classnames para nomear uma classe e para não criar um ternario grande.
+ import cn from 'classnames',
+ 
+ exe: {div className={
+      cn('question',
+        {answered: isAnswered},
+        {highlighted: isHighlighted}
+      )}
+    >
+    
+  Para hospedar a aplicação utilizando o Firebasetools
+  yarn global add firebase-tools  
+  
+  Tarefas
+  Reponsividade na app
+  -Master class Rocket
+  -aplicar dark e light
+  -pwa : doc react create app
+  - modals
+  - ouros bancos de dados (Firestore)
+  - biblioteca de css (styleComponente)
+  - eslint e pritter
+  - git hub - detalhado  
+  
+
 ##Deploy
  Apartir utilizando firebase, configurando o .env no github repository.
  git hub doc env action environment
